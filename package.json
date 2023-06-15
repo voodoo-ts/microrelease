@@ -1,5 +1,5 @@
 {
-  "name": "microrelease",
+  "name": "@voodoo-ts/microrelease",
   "version": "0.0.0",
   "description": "Some description",
   "scripts": {
