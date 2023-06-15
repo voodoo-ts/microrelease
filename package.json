@@ -38,5 +38,6 @@
   },
   "bin": {
     "microrelease": "dist/main.js"
-  }
+  },
+  "private": false
 }
