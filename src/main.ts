@@ -33,7 +33,8 @@ function main(): void {
     microrelease?: Settings;
   };
 
-  const prerelease = process.argv.at(-1);
+  const lastArgument = process.argv.at(-1);
+  const prerelease = lastArgument && ['alpha', 'beta', 'rc'].includes(lastArgument) ? lastArgument : undefined;
 
   const [currentMajorVersion] = currentVersion.split('.').map((p) => Number.parseInt(p, 10));
 
